@@ -17,3 +17,5 @@ class Solution:
         for i in range(2, A):
             if self.is_prime(i) and self.is_prime(A - i):
                 return [i, A - i]
+
+# Correct!
